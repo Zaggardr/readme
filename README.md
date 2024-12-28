@@ -22,7 +22,6 @@ Library Management System (LMS) is a software solution designed to manage  the o
 The application architecture uses react for the frontend and Spring for the backend, with communication via an HTTP client.
 
 ## Docker Image
-sh
 
 
 version: '3'
@@ -117,7 +116,6 @@ Purpose: JDBC driver for connecting to a MySQL database.
 
 
 xml
-sh
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -208,7 +206,8 @@ Click the link below to watch a demonstration video:
   - Email : samira123@gmail.com
   - Mot de passe : samira123
 - Pour s'authentifier en tant que user  :
-  -Sign in and use your information to authenticate.
+  - Sign in and use your information to authenticate
+  
 
 # Contributing
 
