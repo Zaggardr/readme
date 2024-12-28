@@ -23,7 +23,6 @@ The application architecture uses react for the frontend and Spring for the back
 
 ## Docker Image
 
-
 version: '3'
 services:
   mysql:
@@ -69,7 +68,6 @@ services:
         MYSQL_ROOT_PASSWORD: root
       ports:
         - "8081:80"
-
 
 ## Frontend
 
