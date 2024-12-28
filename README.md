@@ -17,9 +17,9 @@ Library Management System (LMS) is a software solution designed to manage  the o
 
 
 ## Software architecture
-![architecture](https://github.com/Hajarita12/decideXpert/assets/120518556/fcaf538e-5262-4ab7-961f-d03008fcf6d2)
+<img width="568" alt="arch1" src="https://github.com/user-attachments/assets/55a8026e-7d23-47c5-a9f3-1a4992328f4f" />
 
-The application architecture uses react for the frontend and Spring for the backend, with communication via an HTTP client.
+The application architecture uses react for the frontend and Spring for the backend, with communication via an HTTP .
 
 ## Docker Image
 
