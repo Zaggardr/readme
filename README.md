@@ -23,6 +23,7 @@ The application architecture uses react for the frontend and Spring for the back
 
 ## Docker Image
 
+```yaml
 version: '3'
 services:
   mysql:
@@ -68,6 +69,7 @@ services:
         MYSQL_ROOT_PASSWORD: root
       ports:
         - "8081:80"
+```
 
 ## Frontend
 
@@ -113,7 +115,7 @@ The backend code is structured in a modular and organized way, utilizing Spring 
 Purpose: JDBC driver for connecting to a MySQL database.
 
 
-xml
+```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -123,7 +125,7 @@ xml
     <artifactId>mysql-connector-java</artifactId>
     <scope>runtime</scope>
 </dependency>
-
+```
 
 
 ## Getting Started
